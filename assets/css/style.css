@@ -11,10 +11,9 @@ body {
 
 .container {
     margin: auto;
-    margin-top: 50px;
     width: 100%;
     max-width: 1440px;
-    height: 900px;
+    padding-bottom: 50px;
     border: 4px solid #304F6D;
     border-radius: 15px;
 }
@@ -73,7 +72,8 @@ body {
 
 .clientetext,
 .caixatext {
-    width: 200px;
+    max-width: 200px;
+    width: 100%;
     text-transform: uppercase;
     font-weight: bold;
     color: #FFF;
@@ -150,8 +150,9 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 10px;
-    padding-bottom: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
     width: 470px;
     height: 460px;
     border: 3px solid #304F6D;
@@ -175,4 +176,19 @@ span {
     color: #304F6D;
     font-size: 24px;
     text-shadow: 1px 1px 2px #FFF;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 769px) {
+    .areabottom {
+        flex-wrap: wrap;
+    }
+    .areavisor {
+        margin: 0 10px;
+    }
+    .boxcaixa {
+        margin-top: 20px;
+    }
 }
