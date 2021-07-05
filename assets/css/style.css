@@ -1,0 +1,180 @@
+body {
+    background: url(../img/bg8.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #A2CEED;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 1440px;
+    height: 900px;
+    border: 4px solid #304F6D;
+    border-radius: 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.areavisor {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.visor {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid #304F6D;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 1000px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.senhatext,
+.caixatext--visor {
+    margin-top: 10px;
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFF;
+    text-shadow: 1px 2px 2px #304F6D;
+}
+
+.senhachama,
+.caixachama {
+    color: yellow;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.areasenha,
+.areacaixa {
+    text-align: center;
+}
+
+.areabottom {
+    display: flex;
+    justify-content: center;
+}
+
+.clientetext,
+.caixatext {
+    width: 200px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-shadow: 1px 2px 1px #304F6D;
+}
+
+.escolhacliente,
+.escolhacaixa {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px #304F6D;
+}
+
+.text--sua {
+    margin-top: 40px;
+    color: #FFF;
+    text-shadow: 1px 1px 2px #304F6D;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.senha-cliente {
+    color: yellow;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 34px;
+}
+
+.boxcliente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 470px;
+    height: 460px;
+    border: 3px solid #304F6D;
+    border-radius: 15px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #304F6D;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+    width: 300px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFF;
+    color: #304F6D;
+    border: 1px solid #304F6D;
+}
+
+.boxcaixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    width: 470px;
+    height: 460px;
+    border: 3px solid #304F6D;
+    border-radius: 15px;
+}
+
+.devolper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.devolper img {
+    width: 150px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: #304F6D;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px #FFF;
+}
