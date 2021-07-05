@@ -192,3 +192,18 @@ span {
         margin-top: 20px;
     }
 }
+
+@media (max-width:426px) {
+    .boxcliente {
+        width: auto;
+    }
+    .boxcaixa {
+        width: 324px;
+    }
+    span {
+        font-size: 18px;
+    }
+    .logo img {
+        width: 350px;
+    }
+}
