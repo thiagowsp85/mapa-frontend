@@ -4,7 +4,6 @@ body {
     background-position: center;
     width: 100vw;
     height: 100vh;
-    /* background-color: #A2CEED;*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -75,11 +74,11 @@ body {
 .clientetext,
 .caixatext {
     width: 200px;
-    padding: 10px;
     text-transform: uppercase;
     font-weight: bold;
     color: #FFF;
     font-size: 20px;
+    margin-top: 20px;
     margin-bottom: 5px;
     text-shadow: 1px 2px 1px #304F6D;
 }
@@ -111,7 +110,6 @@ body {
 .boxcliente {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-right: 10px;
     padding: 10px;
